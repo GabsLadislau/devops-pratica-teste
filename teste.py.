@@ -1,0 +1,8 @@
+from codigo import calcular_total_vendas
+
+def test_total_vendas():
+    vendas = [100, 200, 300, 400, 500]
+    assert calcular_total_vendas(vendas) == 1500
+
+test_total_vendas()
+print("Teste passou com sucesso!")
